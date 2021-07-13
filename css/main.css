@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+/* ----------FIRST SECTION START------- */
+
+.container-1{
+    display: flex;        
+}
+.half-width-1{
+    width: 50%;   
+}
+.half-bg-black{
+    background-color: black;
+}
+.discription{
+    padding: 23% 10% 25% 40%;    
+}
+.half-width-1 p{
+    color: gray;  
+}
+.half-width-1 h1{
+    color: white;
+    font-size: 2.5em;    
+}
+.half-width-1 a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+.half-width-1 img{
+    width: 60%;
+    height: 100%; 
+   
+}  
+
+/* -- ----------2ND SECTION START--------- -- */
+.container-2{
+    background-color: black;
+    padding: 10% 32% 10% 32%;  
+}
+.container-2 h1{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+.container-2 .review{
+    display: flex;
+    justify-content: center;
+}
+.container-2 h2{
+    color: white;
+}
+.container-2 h3{
+    color: gray;
+}
+.review img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+.review-text{
+    padding-left: 20px;
+}
+
+/* -- ----------3RD SECTION START--------- -- */
+
+.container-3{
+    padding: 140px 300px;
+}
+.container-3 h1{
+    font-size: 2.5em;
+}
+.container-3-flexible{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    padding-top: 25px;    
+}
+.container-3 h2{
+    font-size: 1.7em;
+}
+.container-3 h3{
+    color: rgba(24, 22, 22, 0.842);
+    font-weight: 300;
+    font-size: 1.5em;
+}
+.container-3 a{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* -- ----------4TH SECTION START--------- -- */
